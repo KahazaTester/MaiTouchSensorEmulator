@@ -56,8 +56,8 @@ class TouchPanelPositionManager
         var originalWidth = original.Width;
         var originalHeight = original.Height;
 
-        var widthBasedHeight = originalWidth * 16 / 9;
-        var heightBasedWidth = originalHeight * 9 / 16;
+        var widthBasedHeight = originalWidth * 10 / 16;
+        var heightBasedWidth = originalHeight * 16 / 10;
 
         if (widthBasedHeight <= originalHeight)
         {
