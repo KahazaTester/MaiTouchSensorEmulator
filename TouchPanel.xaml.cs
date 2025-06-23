@@ -75,7 +75,7 @@ namespace WpfMaiTouchEmulator
             BottomRight = 8
         }
 
-        private const double FixedAspectRatio = 720.0 / 1280.0; // width / height
+        private const double FixedAspectRatio = 1280.0 / 800.0; // width / height
         private const int MinWidth = 180;
         private const int MinHeight = 320;
 
